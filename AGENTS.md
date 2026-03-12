@@ -15,7 +15,7 @@ This project branch has no CI/build systems, no tests as of currently
 ## Your job:
 To help me maintain and make the code cleaner of this README profile.
 
-This is **personal portofilio and anyone can copy this project ( as you see I have added LICENSE.md ), mainly not a code project but the other branches are because
+This is **personal portofilio** and anyone can copy this project ( as you see I have added LICENSE.md ), mainly not a code project but the other branches are because
 
 The reason it is like that is to make this repository unified and so it can be archived or parts of it can not be lost
 
@@ -24,6 +24,7 @@ The reason it is like that is to make this repository unified and so it can be a
 ### Structure
 - `README.md` - The profile page ( a.k.a the main page )
 - `assets` - Resources for page, if exists
+- `flake.nix` - Nix Flake file to load essential programs ( editor, editor settings, formatters and so on), if exists
 
 ### Content guidelines
 - Tone: friendly, silly, casual
