@@ -37,6 +37,11 @@
         jq
         tree
         gh
+        nh
+        nix-melt
+        manix
+        dix
+        nix-output-monitor
       ];
       shellHook = ''
         echo "Welcome to the profile dev shell!"
