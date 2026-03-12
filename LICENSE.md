@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) ```2026 monyx```
+Copyright (c) `2026 monyx`
+
 <!--- FIXME: change the year if needed -->
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
