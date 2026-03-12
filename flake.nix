@@ -30,7 +30,7 @@
       packages = with pkgs; [
         helix
         deadnix
-        nil
+        nixd
         mdformat
         git
         ripgrep

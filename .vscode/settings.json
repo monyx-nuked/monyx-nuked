@@ -1,3 +1,13 @@
 {
-    "nixEnvSelector.nixFile": "${workspaceFolder}/flake.nix"
+    "nixEnvSelector.nixFile": "${workspaceFolder}/flake.nix",
+    "editor.fontFamily": "\"JetBrainsMono Nerd Font\", Consolas, 'Courier New', monospace",
+    "editor.wordWrap": "on",
+    "git.autofetch": true,
+    "nix.enableLanguageServer": true, // Enable LSP.
+    "nix.serverPath": "nixd", // The path to the LSP server executable.
+    "nix.serverSettings": {
+      "nil": {
+        "formatting": { "command": ["alejandra"] }
+      }
+    }
 }
