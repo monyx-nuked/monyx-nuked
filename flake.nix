@@ -31,7 +31,6 @@
         helix
         deadnix
         nil
-        nixd
         mdformat
         git
         ripgrep
@@ -39,7 +38,6 @@
         tree
         gh
       ];
-
       shellHook = ''
         echo "Welcome to the profile dev shell!"
         echo "System: ${system}"
