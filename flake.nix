@@ -30,6 +30,7 @@
       packages = with pkgs; [
         helix
         deadnix
+        nil
         nixd
         mdformat
         git
@@ -38,6 +39,7 @@
         tree
         gh
       ];
+
       shellHook = ''
         echo "Welcome to the profile dev shell!"
         echo "System: ${system}"

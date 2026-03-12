@@ -6,8 +6,14 @@
     "nix.enableLanguageServer": true, // Enable LSP.
     "nix.serverPath": "nixd", // The path to the LSP server executable.
     "nix.serverSettings": {
+      // check https://github.com/oxalica/nil/blob/main/docs/configuration.md for all options available
       "nil": {
-        "formatting": { "command": ["alejandra"] }
-      }
-    }
+        // "diagnostics": {
+        //  "ignored": ["unused_binding", "unused_with"],
+        // },
+        "formatting": {
+          "command": ["alejandra"],
+        },
+      },
+    },
 }
