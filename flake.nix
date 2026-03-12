@@ -18,11 +18,30 @@
     ###########
     nixpkgs.url = "https://flakehub.com/f/nixos/nixpkgs/0.1";
   };
-  outputs = {
-    self,
-    nixpkgs,
-    ...
-  } @ inputs: {
-    devShells."x86_64-linux".default = {};
+  outputs = {nixpkgs, ...}: let
+    system = "x86_64-linux";
+    pkgs = import nixpkgs {
+      inherit system;
+      config.allowUnfree = true;
+    };
+  in {
+    devShells.${system}.default = pkgs.mkShell {
+      name = "profile-dev";
+      packages = with pkgs; [
+        helix
+        deadnix
+        nil
+        mdformat
+        git
+        ripgrep
+        jq
+        tree
+        gh
+      ];
+      shellHook = ''
+        echo "Welcome to the profile dev shell!"
+        echo "System: ${system}"
+      '';
+    };
   };
 }
