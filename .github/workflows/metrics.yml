@@ -27,3 +27,11 @@ jobs:
           retries_delay_output_action: 120
           optimize: css, xml
           config_timezone: Asia/Tashkent
+          # Plugins
+          plugins_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugins_languages: yes
+          plugins_repositories: yes
+          plugin_repositories_featured: monyx-nuked/monyx-nuked, monyx-nuked/nix-config # FIXME: change this to your repository
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
