@@ -1,8 +1,8 @@
 <h2 align="left">Hi There! I'm <code>monyx</code></h2>
 
-![Nix Badge](https://img.shields.io/badge/Nix-blue?style=for-the-badge&logo=nixos&labelColor=black&link=%23)
-![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&labelColor=black&link=https%3A%2F%2Fdiscord.com%2Fusers%2F938080309730246677)
-![Telegram Badge](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&labelColor=black&link=https%3A%2F%2Ft.me%2Fmonyx_nuked)
+[![Nix Badge](https://img.shields.io/badge/Nix-blue?style=for-the-badge&logo=nixos&labelColor=black&link=%23)](https://nixos.org)
+[![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&labelColor=black)](https://discord.com/users/https://discord.com/users/938080309730246677)
+[![Telegram Badge](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&labelColor=black)](https://t.me/monyx_nuked)
 
 <img src="https://lanyard.cnrad.dev/api/938080309730246677?theme=dark&showDisplayName=true&borderRadius=0px&hideActivity=true&hideSpotify=true" />
 
@@ -54,6 +54,6 @@ ______________________________________________________________________
 ______________________________________________________________________
 
 <h6 align="center">
-Last update in <code>unknown</code>
+Last update in <code>13 March 2026</code>
 </h6>
 <!-- The readme is not yet so its unknown --->
