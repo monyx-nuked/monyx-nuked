@@ -38,6 +38,12 @@ ______________________________________________________________________
   </a>
 </p>
 
+<p align="left">🎁 Metrics</p>
+<h4 align="right">My metrics</h6>
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>
+
 <p align="left">📦 Github Stats</p>
 <h4 align="right">Stats Card</h6>
 <img src="https://github-readme-stats.vercel.app/api?username=monyx-nuked&show_icons=true&theme=catppuccin_mocha&border_radius=0&hide_border=true&hide_title=true&rank_icon=github" />

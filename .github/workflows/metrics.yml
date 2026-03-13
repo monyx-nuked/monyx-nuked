@@ -26,3 +26,4 @@ jobs:
           retries_output_action: 5
           retries_delay_output_action: 120
           optimize: css, xml
+          config_timezone: Asia/Tashkent
