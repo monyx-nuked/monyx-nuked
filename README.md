@@ -41,22 +41,41 @@ ______________________________________________________________________
 <p align="left">🎁 Metrics</p>
 <h4 align="right">My metrics</h6>
 <picture>
-  <img src="/github-metrics.svg" alt="Metrics">
+  <img src="./metrics.core.svg" alt="Metrics">
 </picture>
+<h4 align="right">Isocalendar - full-year</h6>
+<picture>
+  <img src="./metrics.plugin.isocalendar.svg" alt="Isocalendar">
+</picture>
+<h4 align="right">Featured Repositories</h6>
+<picture>
+  <img src="./metrics.plugin.repositories.svg" alt="Featured Repositories">
+</picture>
+<h4 align="right">Starred Topics</h6>
+<picture>
+  <img src="./metrics.plugin.topics.svg" alt="Starred Topic Icons">
+</picture>
+<h4 align="right">Most Used Languages</h6>
+<picture>
+  <img src="./metrics.plugin.languages.svg" alt="Most Used Languages">
+</picture>
+
 
 <p align="left">📦 Github Stats</p>
 <h4 align="right">Stats Card</h6>
 <img src="https://github-readme-stats.vercel.app/api?username=monyx-nuked&show_icons=true&theme=catppuccin_mocha&border_radius=0&hide_border=true&hide_title=true&rank_icon=github" />
 <h4 align="right">Repo Pins</h6>
 <a href="https://github.com/monyx-nuked/monyx-nuked"><img src="https://github-readme-stats.vercel.app/api/pin/?username=monyx-nuked&repo=monyx-nuked&border_radius=0&show_icons=true&theme=catppuccin_mocha&hide_border=true&show_owner=true"></a>
-<h4 align="right">Top Languages Used</h6>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=monyx-nuked&show_icons=true&theme=catppuccin_mocha&border_radius=0&hide_border=true&layout=compact&hide_title=true" />
+<!-- <h4 align="right">Top Languages Used</h6>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=monyx-nuked&show_icons=true&theme=catppuccin_mocha&border_radius=0&hide_border=true&layout=compact&hide_title=true" /> -->
 
 <p align="left">🔗 Credits</p>
 <ul>
   <li>The icons/badges are provided by <a href="https://shields.io">shields.io</a></li>
   <li>Github Stats are provided by <a href="https://github.com/anuragharza/github-readme-stats">Anurag's Github Stats</a></li>
   <li>Discord Status provided by <a href="https://github.com/cnrad/lanyard-profile-readme">Lanyard</a></li>
+  <li>Metrics provided by <a href="https://github.com/lowlighter/metrics">Metrics</a></li>
+  <li>Counter at the bottom by <a href="https://count.getloli.com">Moe Counter</a></li>
 </ul>
 
 <p align="center"><img src="https://count.getloli.com/@monyx-nuked?name=monyx-nuked&theme=moebooru&padding=7&offset=0&align=top&scale=0.7&pixelated=1&darkmode=1" /></p>
