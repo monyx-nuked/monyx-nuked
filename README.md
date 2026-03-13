@@ -17,7 +17,7 @@ I'm `monyx` (he/him) - I'm a guy who just returned to programming after 1 year. 
 ```nix
 {
   monyx = {
-    age = 13;
+    age = 14;
     pronouns = [ "he" "him" ];
     locale = [ "uz_UZ" "en_US" "ru_RU" ];
     skills = [ "English" "Nix" "HTML" "CSS" "JavaScript" "Python" "NeoVim" ];
