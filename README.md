@@ -11,6 +11,7 @@
 <img src="https://lanyard.cnrad.dev/api/938080309730246677?theme=dark&showDisplayName=true&borderRadius=0px&hideActivity=true&hideSpotify=true" />
 
 I'm `monyx` (he/him) - I'm a guy who just returned to programming after 1 year. I'm interested in making projects and learning languages so I can be a future coder!
+
 > I'm currently heavily interested in [Nix and NixOS](https://nixos.org)</br>
 > I'm muslim (I'm trying my best to pray on time :)
 
@@ -26,9 +27,10 @@ I'm `monyx` (he/him) - I'm a guy who just returned to programming after 1 year. 
   };
 }
 ```
+
 <br>
 
-----------
+______________________________________________________________________
 
 <br>
 
@@ -53,8 +55,7 @@ I'm `monyx` (he/him) - I'm a guy who just returned to programming after 1 year. 
   <li>Discord Status provided by <a href="https://github.com/cnrad/lanyard-profile-readme">Lanyard</a></li>
 </ul>
 
-----------
-
+______________________________________________________________________
 
 <h6 align="center">
 Last update in <code>unknown</code>
