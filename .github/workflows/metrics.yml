@@ -28,4 +28,14 @@ jobs:
           optimize: css, xml
       - uses: lowlighter/metrics@latest
         with:
+          token: ${{ secrets.METRICS_TOKEN }}
           config_output: insights
+          use_prebuilt_image: true
+          output_action: commit
+          commiter_branch: master
+          committer_message: "chore: update metrics-insights"
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          optimize: css, xml
