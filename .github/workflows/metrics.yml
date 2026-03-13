@@ -16,10 +16,11 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: metrics.core.svg # FILENAME
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
-          commiter_branch: master
+          committer_branch: master
           committer_message: "chore: update metrics"
           retries: 3
           retries_delay: 300
@@ -27,11 +28,67 @@ jobs:
           retries_delay_output_action: 120
           optimize: css, xml
           config_timezone: Asia/Tashkent
-          # Plugins
+      # Plugins
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugins.isocalendar.svg # FILENAME
+          use_prebuilt_image: true
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: master
+          committer_message: "chore: update metrics"
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          optimize: css, xml
+          config_timezone: Asia/Tashkent
           plugins_isocalendar: yes
           plugin_isocalendar_duration: half-year
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugins.languages.svg # FILENAME
+          use_prebuilt_image: true
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: master
+          committer_message: "chore: update metrics"
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          optimize: css, xml
+          config_timezone: Asia/Tashkent
           plugins_languages: yes
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugins.repositories.svg # FILENAME
+          use_prebuilt_image: true
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: master
+          committer_message: "chore: update metrics"
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          optimize: css, xml
+          config_timezone: Asia/Tashkent
           plugins_repositories: yes
           plugin_repositories_featured: monyx-nuked/monyx-nuked, monyx-nuked/nix-config # FIXME: change this to your repository
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugins.languages.svg # FILENAME
+          use_prebuilt_image: true
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: master
+          committer_message: "chore: update metrics"
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          optimize: css, xml
+          config_timezone: Asia/Tashkent
           plugin_achievements: yes
           plugin_achievements_display: detailed
