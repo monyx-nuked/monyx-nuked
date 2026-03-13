@@ -33,7 +33,7 @@ jobs:
       - name: Isocalendar
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugins.isocalendar.svg # FILENAME
+          filename: metrics.plugin.isocalendar.svg # FILENAME
           base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
@@ -46,12 +46,12 @@ jobs:
           retries_delay_output_action: 120
           optimize: css, xml
           config_timezone: Asia/Tashkent
-          plugins_isocalendar: yes
+          plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
       - name: Languages
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugins.languages.svg # FILENAME
+          filename: metrics.plugin.languages.svg # FILENAME
           base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
@@ -64,11 +64,11 @@ jobs:
           retries_delay_output_action: 120
           optimize: css, xml
           config_timezone: Asia/Tashkent
-          plugins_languages: yes
+          plugin_languages: yes
       - name: Repositories
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugins.repositories.svg # FILENAME
+          filename: metrics.plugin.repositories.svg # FILENAME
           base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
@@ -81,12 +81,12 @@ jobs:
           retries_delay_output_action: 120
           optimize: css, xml
           config_timezone: Asia/Tashkent
-          plugins_repositories: yes
+          plugin_repositories: yes
           plugin_repositories_featured: monyx-nuked/monyx-nuked, monyx-nuked/nix-config # FIXME: change this to your repository
       - name: Achievements
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugins.achievements.svg # FILENAME
+          filename: metrics.plugin.achievements.svg # FILENAME
           base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
@@ -104,7 +104,7 @@ jobs:
       - name: Topics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugins.topics.svg # FILENAME
+          filename: metrics.plugin.topics.svg # FILENAME
           base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
