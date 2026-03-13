@@ -16,4 +16,16 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          commiter_branch: master
+          committer_message: "chore: update metrics"
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          optimize: css, xml
+      - uses: lowlighter/metrics@latest
+        with:
+          config_output: insights
