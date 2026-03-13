@@ -42,6 +42,7 @@
         manix
         dix
         nix-output-monitor
+        nix-tree
       ];
       shellHook = ''
         echo "Welcome to the profile dev shell!"
