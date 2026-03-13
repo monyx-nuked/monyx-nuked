@@ -43,8 +43,8 @@
         dix
         nix-output-monitor
         nix-tree
+        markdown-oxide
       ];
-
       shellHook = ''
         echo "Welcome to the profile dev shell!"
         echo "System: ${system}"
