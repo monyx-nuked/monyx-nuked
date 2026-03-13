@@ -44,6 +44,7 @@
         nix-output-monitor
         nix-tree
       ];
+
       shellHook = ''
         echo "Welcome to the profile dev shell!"
         echo "System: ${system}"

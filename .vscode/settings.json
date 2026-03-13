@@ -15,5 +15,10 @@
           "command": ["alejandra"],
         },
       },
+      "nixd": {
+        "formatting": {
+          "command": ["alejandra"],
+        },
+      },
     },
 }
