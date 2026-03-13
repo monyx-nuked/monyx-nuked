@@ -14,7 +14,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Core
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.core.svg # FILENAME
           use_prebuilt_image: true
@@ -29,14 +30,16 @@ jobs:
           optimize: css, xml
           config_timezone: Asia/Tashkent
       # Plugins
-      - uses: lowlighter/metrics@latest
+      - name: Isocalendar
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugins.isocalendar.svg # FILENAME
+          base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
           committer_branch: master
-          committer_message: "chore: update metrics"
+          committer_message: "chore: update metrics - isocalendar"
           retries: 3
           retries_delay: 300
           retries_output_action: 5
@@ -45,14 +48,16 @@ jobs:
           config_timezone: Asia/Tashkent
           plugins_isocalendar: yes
           plugin_isocalendar_duration: half-year
-      - uses: lowlighter/metrics@latest
+      - name: Languages
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugins.languages.svg # FILENAME
+          base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
           committer_branch: master
-          committer_message: "chore: update metrics"
+          committer_message: "chore: update metrics - languages"
           retries: 3
           retries_delay: 300
           retries_output_action: 5
@@ -60,14 +65,16 @@ jobs:
           optimize: css, xml
           config_timezone: Asia/Tashkent
           plugins_languages: yes
-      - uses: lowlighter/metrics@latest
+      - name: Repositories
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugins.repositories.svg # FILENAME
+          base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
           committer_branch: master
-          committer_message: "chore: update metrics"
+          committer_message: "chore: update metrics - repositories"
           retries: 3
           retries_delay: 300
           retries_output_action: 5
@@ -76,14 +83,16 @@ jobs:
           config_timezone: Asia/Tashkent
           plugins_repositories: yes
           plugin_repositories_featured: monyx-nuked/monyx-nuked, monyx-nuked/nix-config # FIXME: change this to your repository
-      - uses: lowlighter/metrics@latest
+      - name: Achievements
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugins.achievements.svg # FILENAME
+          base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
           committer_branch: master
-          committer_message: "chore: update metrics"
+          committer_message: "chore: update metrics - achievements"
           retries: 3
           retries_delay: 300
           retries_output_action: 5
@@ -92,3 +101,24 @@ jobs:
           config_timezone: Asia/Tashkent
           plugin_achievements: yes
           plugin_achievements_display: detailed
+      - name: Topics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugins.topics.svg # FILENAME
+          base: ""
+          use_prebuilt_image: true
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: master
+          committer_message: "chore: update metrics - topics" # remember to change these too
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          optimize: css, xml
+          config_timezone: Asia/Tashkent
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_sort: stars
+          plugin_topics_limit: 0
+      
