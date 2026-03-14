@@ -17,7 +17,7 @@ jobs:
       - name: Core
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.core.svg # FILENAME
+          filename: assets/metrics/metrics.core.svg # FILENAME
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
@@ -33,7 +33,7 @@ jobs:
       - name: Isocalendar
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.isocalendar.svg # FILENAME
+          filename: assets/metrics/metrics.plugin.isocalendar.svg # FILENAME
           base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
@@ -51,7 +51,7 @@ jobs:
       - name: Languages
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.languages.svg # FILENAME
+          filename: assets/metrics/metrics.plugin.languages.svg # FILENAME
           base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
@@ -68,7 +68,7 @@ jobs:
       - name: Repositories
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.repositories.svg # FILENAME
+          filename: assets/metrics/metrics.plugin.repositories.svg # FILENAME
           base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
@@ -86,7 +86,7 @@ jobs:
       - name: Topics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.topics.svg # FILENAME
+          filename: assets/metrics/metrics.plugin.topics.svg # FILENAME
           base: ""
           use_prebuilt_image: true
           token: ${{ secrets.METRICS_TOKEN }}
