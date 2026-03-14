@@ -41,23 +41,23 @@ ______________________________________________________________________
 <p align="left">🎁 Metrics</p>
 <h4 align="right">My metrics</h6>
 <picture>
-  <img src="./metrics.core.svg" alt="Metrics">
+  <img src="./assets/metrics/metrics.core.svg" alt="Metrics">
 </picture>
 <h4 align="right">Isocalendar - full-year</h6>
 <picture>
-  <img src="./metrics.plugin.isocalendar.svg" alt="Isocalendar">
+  <img src="./assets/metrics/metrics.plugin.isocalendar.svg" alt="Isocalendar">
 </picture>
 <h4 align="right">Featured Repositories</h6>
 <picture>
-  <img src="./metrics.plugin.repositories.svg" alt="Featured Repositories">
+  <img src="./assets/metrics/metrics.plugin.repositories.svg" alt="Featured Repositories">
 </picture>
 <h4 align="right">Starred Topics</h6>
 <picture>
-  <img src="./metrics.plugin.topics.svg" alt="Starred Topic Icons">
+  <img src="./assets/metrics/metrics.plugin.topics.svg" alt="Starred Topic Icons">
 </picture>
 <h4 align="right">Most Used Languages</h6>
 <picture>
-  <img src="./metrics.plugin.languages.svg" alt="Most Used Languages">
+  <img src="./assets/metrics/metrics.plugin.languages.svg" alt="Most Used Languages">
 </picture>
 
 
