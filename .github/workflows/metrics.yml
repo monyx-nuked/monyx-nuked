@@ -65,6 +65,9 @@ jobs:
           optimize: css, xml
           config_timezone: Asia/Tashkent
           plugin_languages: yes
+          plugin_languages_details: byte-size, percentage, lines
+          plugin_languages_skipped: monyx-nuked/monyx-nuked@hackintosh
+          plugin_languages_indepth: true
       - name: Repositories
         uses: lowlighter/metrics@latest
         with:
