@@ -8,7 +8,7 @@
 <img src="https://lanyard.cnrad.dev/api/938080309730246677?theme=dark&showDisplayName=true&borderRadius=0px&hideActivity=true&hideSpotify=true" />
 
 ### 🔎 About Me
-I'm `monyx` (he/him) - I'm a guy who just returned to programming after 1 year. I'm interested in making projects and learning languages, aiming to be a *Web* Master!
+I'm `monyx` (he/him) - I'm a guy who just returned to programming after 1 year. I'm interested in making projects and learning languages, aiming to be a *Coder* Master!
 
 > I'm currently heavily interested in [Nix and NixOS](https://nixos.org)</br>
 > I'm muslim (I'm trying my best to pray on time :)
