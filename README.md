@@ -78,10 +78,10 @@ ______________________________________________________________________
   <li>Counter at the bottom by <a href="https://count.getloli.com">Moe Counter</a></li>
 </ul>
 
-<p align="center"><img src="https://count.getloli.com/@monyx-nuked?name=monyx-nuked&theme=moebooru&padding=7&offset=0&align=top&scale=0.7&pixelated=1&darkmode=1" /></p>
+<p align="center"><img src="https://count.getloli.com/@monyxd?name=monyxd&theme=moebooru&padding=7&offset=0&align=top&scale=0.7&pixelated=1&darkmode=1" /></p>
 
 ______________________________________________________________________
 
 <h6 align="center">
-Last update in <code>14 March 2026</code>
+Last update in <code>16 March 2026</code>
 </h6>
