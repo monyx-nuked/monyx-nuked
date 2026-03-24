@@ -1,5 +1,5 @@
 
-<h2 align="left">Hi There! I'm <code>monyx</code></h2>
+# Hi There! I'm `monyx`
 
 [![Nix Badge](https://img.shields.io/badge/Nix-blue?style=for-the-badge&logo=nixos&labelColor=black&link=%23)](https://nixos.org)
 [![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&labelColor=black)](https://discord.com/users/938080309730246677)
