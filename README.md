@@ -1,5 +1,14 @@
+<a href="https://github.com/monyx-nuked/monyx-nuked/">
+  <img
+    alt="Moe Counter"
+    align=right
+    src="https://count.getloli.com/@monyxd?name=monyxd&theme=moebooru&padding=7&offset=0&align=top&scale=0.7&pixelated=1&darkmode=1"
+    width=200px
+    height=200px
+  />
+</a>
 
-# Hi There! I'm `monyx`
+## Hi There! I'm `monyx`
 
 [![Nix Badge](https://img.shields.io/badge/Nix-blue?style=for-the-badge&logo=nixos&labelColor=black&link=%23)](https://nixos.org)
 [![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&labelColor=black)](https://discord.com/users/938080309730246677)
@@ -75,10 +84,8 @@ ______________________________________________________________________
   <li>Github Stats are provided by <a href="https://github.com/anuragharza/github-readme-stats">Anurag's Github Stats</a></li>
   <li>Discord Status provided by <a href="https://github.com/cnrad/lanyard-profile-readme">Lanyard</a></li>
   <li>Metrics provided by <a href="https://github.com/lowlighter/metrics">Metrics</a></li>
-  <li>Counter at the bottom by <a href="https://count.getloli.com">Moe Counter</a></li>
+  <li>Counter at the right by <a href="https://count.getloli.com">Moe Counter</a></li>
 </ul>
-
-<p align="center"><img src="https://count.getloli.com/@monyxd?name=monyxd&theme=moebooru&padding=7&offset=0&align=top&scale=0.7&pixelated=1&darkmode=1" /></p>
 
 ______________________________________________________________________
 
