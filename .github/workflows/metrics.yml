@@ -85,7 +85,7 @@ jobs:
           optimize: css, xml
           config_timezone: Asia/Tashkent
           plugin_repositories: yes
-          plugin_repositories_featured: monyx-nuked/monyx-nuked, monyx-nuked/nix-config # FIXME: change this to your repository
+          plugin_repositories_featured: monyx-nuked/monyx-nuked, monyx-nuked/meowix # FIXME: change this to your repository
       - name: Topics
         uses: lowlighter/metrics@latest
         with:
