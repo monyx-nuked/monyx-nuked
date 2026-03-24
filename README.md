@@ -73,8 +73,8 @@ ______________________________________________________________________
 <p align="left">📦 Github Stats</p>
 <h4 align="right">Stats Card</h6>
 <img src="https://github-readme-stats.vercel.app/api?username=monyx-nuked&show_icons=true&theme=catppuccin_mocha&border_radius=0&hide_border=true&hide_title=true&rank_icon=github" />
-<h4 align="right">Repo Pins</h6>
-<a href="https://github.com/monyx-nuked/monyx-nuked"><img src="https://github-readme-stats.vercel.app/api/pin/?username=monyx-nuked&repo=monyx-nuked&border_radius=0&show_icons=true&theme=catppuccin_mocha&hide_border=true&show_owner=true"></a>
+<!-- <h4 align="right">Repo Pins</h6>
+<a href="https://github.com/monyx-nuked/monyx-nuked"><img src="https://github-readme-stats.vercel.app/api/pin/?username=monyx-nuked&repo=monyx-nuked&border_radius=0&show_icons=true&theme=catppuccin_mocha&hide_border=true&show_owner=true"></a> -->
 <!-- <h4 align="right">Top Languages Used</h6>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=monyx-nuked&show_icons=true&theme=catppuccin_mocha&border_radius=0&hide_border=true&layout=compact&hide_title=true" /> -->
 
