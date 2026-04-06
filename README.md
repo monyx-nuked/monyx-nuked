@@ -2,7 +2,7 @@
   <img
     alt="Moe Counter"
     align=right
-    src="https://count.getloli.com/@monyxd?name=monyxd&theme=moebooru&padding=7&offset=0&align=top&scale=0.7&pixelated=1&darkmode=1"
+    src="https://count.getloli.com/@monyxd?name=monyxd&theme=food&padding=7&offset=0&align=top&scale=0.7&pixelated=1&darkmode=1"
     width=250px
     height=250px
   />
